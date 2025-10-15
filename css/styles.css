@@ -60,7 +60,7 @@ img {
     height: auto;
 }
 
-/*  --------header ---------*/
+/*  header */
 
 header {
     border-bottom: 1px solid #E7E9FC;
@@ -109,7 +109,7 @@ nav a:focus {
     color: #4D5AE5;
 }
 
-/*------- hero image--------*/
+/* hero image*/
 .hero-image {
     background-color: #2E2F42;
     height: 600px;
@@ -143,7 +143,7 @@ nav a:focus {
     background-color: #404BBF;
 }
 
-/* ----------feature section --------------------- */
+/* feature section  */
 .features-section ul {
     display: flex;
     flex-wrap: wrap;
@@ -166,7 +166,7 @@ nav a:focus {
     margin-bottom: 10px;
 }
 
-/* ----------team section --------------------- */
+/*team section  */
 
 .team-section {
     background-color: #F4F4FD;
@@ -194,7 +194,7 @@ nav a:focus {
     border: 1px solid #E7E9FC;
 }
 
-/* ----------portfolio section --------------------- */
+/* portfolio section */
 
 .portfolio-section h2 {
     text-align: center;
@@ -218,7 +218,7 @@ nav a:focus {
 
 }
 
-/* -----------------footer------------------------------ */
+/*footer */
 footer {
     height: 312px;
     background-color: #2E2F42;
