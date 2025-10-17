@@ -1,12 +1,11 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color: #2E2F42;
-    background-color: #fff;
-    font-size: 16px;
-    line-height: 1.5;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
-    width: 100%;
 }
 
 ul {
@@ -21,12 +20,29 @@ a {
     text-decoration: none;
 }
 
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 h1 {
     color: #fff;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin: 0;
 }
 
 h2 {
@@ -44,7 +60,8 @@ h3 {
 }
 
 .container {
-    width: 1158px;
+    width: 100%;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -64,14 +81,13 @@ img {
 
 header {
     border-bottom: 1px solid #E7E9FC;
-
 }
 
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 72px;
+    padding: 24px 0;
 }
 
 
@@ -112,9 +128,9 @@ nav a:focus {
 /* hero image*/
 .hero-image {
     background-color: #2E2F42;
-    height: 600px;
     display: flex;
     width: 100%;
+    padding: 188px 0;
     align-items: center;
     justify-content: center;
 }
@@ -124,7 +140,7 @@ nav a:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 48px;
 }
 
 .hero-image button {
@@ -147,14 +163,12 @@ nav a:focus {
 .features-section ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 24px;
     justify-content: center;
 
 }
 
 .features-section li {
-
-    padding: 20px;
     border-radius: 8px;
     flex: 1 1 200px;
     max-width: 265px;
@@ -162,26 +176,33 @@ nav a:focus {
 }
 
 .features-section h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 /*team section  */
 
 .team-section {
     background-color: #F4F4FD;
-
 }
 
 .team-section h2 {
     text-align: center;
+    padding-bottom: 72px;
+}
+
+.team-section h3 {
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.team-section p {
+    padding-bottom: 32px;
 }
 
 .team-section ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    list-style: none;
+    gap: 32px 30px;
     justify-content: center;
 }
 
@@ -190,7 +211,7 @@ nav a:focus {
     max-width: 300px;
     text-align: center;
     background-color: #fff;
-    border-radius: 4px 0;
+    border-radius: 0 0 4px 4px;
     border: 1px solid #E7E9FC;
 }
 
@@ -198,6 +219,16 @@ nav a:focus {
 
 .portfolio-section h2 {
     text-align: center;
+    padding-bottom: 72px;
+}
+
+.portfolio-section h3 {
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.portfolio-section p {
+    padding-bottom: 32px;
 }
 
 .portfolio-section ul {
@@ -210,9 +241,8 @@ nav a:focus {
 }
 
 .portfolio-section li {
-    height: 420px;
     flex: 0 0 calc(33.333% - 24px);
-    border-bottom: 1px solid#f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
     text-align: center;
 
 
@@ -220,10 +250,9 @@ nav a:focus {
 
 /*footer */
 footer {
-    height: 312px;
     background-color: #2E2F42;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 footer .container {
@@ -231,13 +260,13 @@ footer .container {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    margin: 0 auto;
+    gap: 16px;
+    padding: 100px 0;
 }
 
 footer p {
     color: #F4F4FD;
     max-width: 264px;
-    margin-top: 16px;
 }
 
 .logo-footer {
